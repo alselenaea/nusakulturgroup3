@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fbf9f5; color: #34251f; font-family: var(--font-sans), sans-serif; }
+button, input { font: inherit; }
+::selection { background: #ddcba6; color: #34251f; }
+.pattern { background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23b8995c' stroke-opacity='.16' stroke-width='1'%3E%3Cpath d='M18 2c5 7 9 11 16 16-7 5-11 9-16 16C13 27 9 23 2 18 9 13 13 9 18 2Z'/%3E%3Cpath d='M18 9c3 4 5 6 9 9-4 3-6 5-9 9-3-4-5-6-9-9 4-3 6-5 9-9Z'/%3E%3C/g%3E%3C/svg%3E"); }
